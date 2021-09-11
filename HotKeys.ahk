@@ -25,6 +25,9 @@
         !^j::Send ^{LEFT}   ; j     CTRL + LEFT (Cursor left per word)
         !^l::Send ^{RIGHT}  ; l CTRL + RIGHT    (Cursor right per word)
         
+	!^I::Send {PgUp} ;  CTRL+ALT+I --> PAGEUP 
+	!^k::Send {PgDn} ;  CTRL+ALT+K --> PAGEDOWN
+
         ; SHIFT + ALT Keypress Implied for all below
         
         !+I::Send +{UP}     ; I SHIFT + UP  (Highlight per line)
